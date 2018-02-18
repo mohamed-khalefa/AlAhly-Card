@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="LayoutWidth">380dp</dimen>
+    <dimen name="LayoutHeight">200dp</dimen>
+    <dimen name="PhotoWidth">150dp</dimen>
+    <dimen name="photoHeight">200dp</dimen>
+    <dimen name="PaddingTop">15dp</dimen>
+    <dimen name="MarginLogo">10dp</dimen>
+    <dimen name="PaddingBottom">10dp</dimen>
+    <dimen name="PaddingLeft">30dp</dimen>
+    <dimen name="IconsWidth">40dp</dimen>
+    <dimen name="IconsHeight">50dp</dimen>
+    <dimen name="MarginTop">20dp</dimen>
+    <dimen name="FontSize">24sp</dimen>
+    <dimen name="FontSizeTwo">20sp</dimen>
+    <dimen name="MarginBottom">10dp</dimen>
+
+
+
+    <dimen name="MarginTopLogo">30dp</dimen>
+    <dimen name="MarginBottomLogo">10dp</dimen>
+    <dimen name="MarginTopIcons">10dp</dimen>
+    <dimen name="MarginTopText">20dp</dimen>
+    <dimen name="PaddingTopText">14dp</dimen>
+    <dimen name="PaddingTopTextone">8dp</dimen>
+
+    <dimen name="MarginLeft">20dp</dimen>
+    <dimen name="MarginLeftphone">14dp</dimen>
+    <dimen name="PaddingMail">3dp</dimen>
+    <dimen name="MarginLeftmail">35dp</dimen>
+
+    <dimen name="MarginLeftText">25dp</dimen>
+    <dimen name="PaddingLeftText">5dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+</resources>

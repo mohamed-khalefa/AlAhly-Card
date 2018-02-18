@@ -1,0 +1,10 @@
+<resources>
+    <string name="HomeText">al ahly sports club </string>
+    <string name="PhoneOne">02-2471-6228</string>
+    <string name="app_name">Al Ahly SC</string>
+    <string name="PhoneId">PhoneId</string>
+    <string name="Website"> alahlyegypt.com</string>
+    <string name="Email">eldawry.elmasry.alahly@gmail.com</string>
+    <string name="appwidget_text">Al Ahly Sc</string>
+    <string name="add_widget">Al Ahly Sc</string>
+</resources>

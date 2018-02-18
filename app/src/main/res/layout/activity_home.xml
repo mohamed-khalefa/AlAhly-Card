@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.hach_laptop.alahlycard.MainActivity">
+
+
+
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end">
+
+        <ImageView
+
+            android:id="@+id/logo"
+
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/PhotoWidth"
+
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginBottom="@dimen/MarginBottomLogo"
+            android:layout_marginTop="@dimen/MarginTopLogo"
+
+
+            android:src="@drawable/ahlylogo" />
+
+        <ImageView
+
+            android:id="@+id/conName"
+
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/IconsHeight"
+
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/logo"
+            android:layout_centerInParent="true"
+
+            android:layout_marginLeft="@dimen/PaddingLeft"
+            android:layout_marginTop="@dimen/MarginTopIcons"
+
+            android:src="@drawable/id" />
+
+
+
+
+        <TextView
+
+            android:id="@+id/coTextView"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_below="@id/logo"
+            android:layout_toRightOf="@id/Home"
+
+            android:layout_marginTop="@dimen/MarginTopText"
+            android:paddingTop="@dimen/PaddingTopTextone"
+            android:layout_marginLeft="@dimen/MarginLeftText"
+            android:fontFamily="@font/inkferno"
+
+            android:autoLink="web"
+            android:clickable="true"
+
+
+            android:text="@string/HomeText"
+            android:textAllCaps="true"
+            android:textColor="@color/TextColor"
+            android:textColorLink="@color/TextColor"
+            android:textSize="@dimen/FontSizeTwo" />
+
+
+        <ImageView
+            android:id="@+id/Home"
+
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/IconsHeight"
+
+
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/conName"
+
+            android:layout_marginLeft="@dimen/PaddingLeft"
+            android:layout_marginTop="@dimen/MarginTopIcons"
+
+            android:src="@drawable/home" />
+
+        <TextView
+
+            android:id="@+id/HomeTextView"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_below="@id/conName"
+            android:layout_toRightOf="@id/Home"
+
+
+            android:layout_marginTop="@dimen/MarginTopText"
+            android:paddingTop="@dimen/PaddingTopTextone"
+            android:layout_marginLeft="@dimen/MarginLeftText"
+            android:fontFamily="@font/inkferno"
+
+
+            android:autoLink="web"
+            android:clickable="true"
+
+
+
+            android:text="@string/Website"
+            android:textAllCaps="true"
+            android:textColor="@color/TextColor"
+            android:textColorLink="@color/TextColor"
+            android:textSize="@dimen/FontSizeTwo" />
+
+        <ImageView
+
+            android:id="@+id/PhoneId"
+
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/IconsHeight"
+
+            android:layout_below="@id/Home"
+
+            android:layout_marginLeft="@dimen/MarginLeftphone"
+            android:layout_marginTop="@dimen/MarginTopIcons"
+            android:paddingLeft="@dimen/PaddingLeftText"
+
+            android:src="@drawable/phone"
+
+            />
+
+
+        <TextView
+
+            android:id="@+id/AdressText"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_below="@id/Home"
+            android:layout_toRightOf="@id/PhoneId"
+
+
+            android:autoLink="phone"
+            android:clickable="true"
+
+            android:layout_marginTop="@dimen/MarginTopText"
+            android:paddingTop="@dimen/PaddingMail"
+            android:layout_marginLeft="@dimen/PaddingMail"
+            android:paddingLeft="8dp"
+            android:fontFamily="@font/inkferno"
+
+
+
+
+            android:text="@string/PhoneOne"
+            android:textAllCaps="true"
+            android:textColor="@color/TextColor"
+            android:textColorLink="@color/TextColor"
+            android:textSize="@dimen/FontSize" />
+
+
+        <ImageView
+
+            android:id="@+id/EmailId"
+
+
+            android:layout_width="70dp"
+            android:layout_height="@dimen/IconsHeight"
+
+            android:layout_below="@id/PhoneId"
+
+
+            android:layout_marginLeft="@dimen/MarginLeftmail"
+            android:layout_marginTop="@dimen/MarginTopIcons"
+
+            android:src="@drawable/email" />
+
+        <TextView
+
+            android:id="@+id/Email"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_below="@id/PhoneId"
+            android:layout_toRightOf="@id/EmailId"
+
+
+            android:layout_marginTop="@dimen/MarginTopText"
+            android:layout_marginLeft="@dimen/MarginLeftText"
+            android:fontFamily="@font/inkferno"
+
+
+            android:autoLink="email"
+            android:clickable="true"
+
+
+
+            android:text="@string/Email"
+            android:textAllCaps="true"
+            android:textColor="@color/TextColor"
+            android:textColorLink="@color/TextColor"
+            android:textSize="@dimen/FontSizeTwo" />
+
+    </RelativeLayout>
+</ScrollView>
+
+</android.support.constraint.ConstraintLayout>
